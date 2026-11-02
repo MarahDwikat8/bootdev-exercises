@@ -5,7 +5,7 @@
 - Learn Git (11 chapters)
 - Learn JavaScript (chapters 1–6)
 - Task T1: dev environment, public repo, setup.sh
-- PR: <link>
+- PR: https://github.com/MarahDwikat8/bootdev-exercises/pull/1
 
 ## Key Takeaways
 - Most Linux commands take a path, so there is no need to navigate to a file
