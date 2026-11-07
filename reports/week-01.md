@@ -1,6 +1,7 @@
 # Week 01 Report
 
 ## Completed
+
 - Learn Linux (7 chapters)
 - Learn Git (11 chapters)
 - Learn JavaScript (chapters 1–6)
@@ -8,6 +9,7 @@
 - PR: https://github.com/MarahDwikat8/bootdev-exercises/pull/1
 
 ## Key Takeaways
+
 - Most Linux commands take a path, so there is no need to navigate to a file
   before acting on it. `cd` only works on directories.
 - Environment variables separate configuration from code. `export` makes a
@@ -21,6 +23,7 @@
   error. `$?` holds the last one.
 
 ## Challenges
+
 - Git Bash was installed but missing from Windows Terminal. Confirmed the binary
   existed with `Test-Path`, then registered it as a terminal profile.
 - Overwrote `PATH` with a typo and lost access to every command. Rebuilt it from
@@ -32,11 +35,15 @@
 - Installed WSL 2 and Ubuntu to get a real Linux environment alongside Windows.
 
 ## Self-assessment
+
 **4/5** — Completed all required courses and T1, and solved the environment
 issues independently. Deliverables were submitted after the Thursday deadline.
 
 ## Hours
+
 Required: ~22 · Optional: ~6
+
 ## Questions for next week
+
 - Are Vitest unit tests expected for every task, or only where the rubric names them?
 - Should Boot.dev exercise solutions be committed per chapter or per course?
