@@ -5,7 +5,7 @@
 - Learn JavaScript (chapters 7–15)
 - Learn TypeScript (chapters 1–5)
 - Task T2: CLI todo app in TypeScript
-- PR: <link>
+- PR:https://github.com/MarahDwikat8/bootdev-exercises/pull/3
 
 ## Key Takeaways
 
