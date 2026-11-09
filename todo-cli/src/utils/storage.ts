@@ -9,14 +9,14 @@ export const DATA_FILE = path.join(DATA_DIR, 'todo.json')
 const readFromJsonFile = async () : Promise<Todo[]> =>{
     try {
         const data= await readFile(DATA_FILE,"utf8");
-        return JSON.parse(data) as Todo[]
+        return JSON.parse(data ?? []) as Todo[]
     } catch (error) {
         if((error as NodeJS.ErrnoException).code === 'ENOENT' ){
             console.log("File Not Found");
            await mkdir(DATA_DIR,{
             recursive:true 
            });
-           await writeFile(DATA_FILE,[],"utf8");
+           await writeFile(DATA_FILE,JSON.stringify([],null,2),"utf8");
            return []
         }
         throw error
