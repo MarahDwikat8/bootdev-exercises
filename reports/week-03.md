@@ -4,7 +4,7 @@
 
 - Learn HTTP Clients (TypeScript) — all chapters
 - Task T3: typed API client with retries, timeout and in-memory cache
-- PR: <link>
+- PR: https://github.com/MarahDwikat8/bootdev-exercises/pull/4
 
 ## In Progress
 
